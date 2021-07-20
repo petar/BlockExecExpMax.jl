@@ -36,7 +36,7 @@ function find_exp_strategy(price, prob, num_rounds) # -> expected sold revenue, 
 end
 
 function test_exp_strategy()
-	find_exp_strategy([150.0, 160.0, 170.0, 300.0], [0.33, 0.33, 0.33, 0.01], 4)
+	find_exp_strategy([150.0, 160.0, 170.0, 190.0], [0.33, 0.32, 0.23, 0.12], 5)
 end
 
 end # module
